@@ -1,0 +1,19 @@
+Computers are electronic devices that can be programmed to perform a wide range of tasks. They are used in almost every aspect of modern life, including
+business, education, entertainment, and communication. Computers are also used in scientific research, medicine, and engineering.
+
+C++ is a programming language that is widely used for developing software on a variety of platforms, including Windows, Mac, Linux, and UNIX. It is an 
+extension of the C programming language, and was developed by Bjarne Stroustrup in 1983. C++ is a powerful, high-performance language that is 
+widely used for developing system software, application software, and games.
+
+One of the key features of C++ is its support for object-oriented programming. This means that the language provides a way to create and 
+manipulate objects, which are instances of classes. Classes are templates for objects and provide a way to encapsulate data and behavior. C++ also
+supports other programming paradigms such as procedural and generic programming.
+
+Another important feature of C++ is its support for templates. Templates are a way to create generic functions and classes that can work with any data type. 
+This makes it easy to write code that can be reused with different types of data. C++ templates are also used to implement the Standard Template Library 
+(STL), which provides a wide range of useful data structures and algorithms.
+
+C++ is also known for its performance. The language has a number of features that allow developers to write highly optimized code. For example, C++ 
+supports manual memory management, which means that developers have fine-grained control over memory allocation and deallocation. This can lead to
+more efficient use of memory and faster code execution. Additionally, C++ has a number of features that make it suitable for developing high-performance 
+systems such as operating systems, device drivers, and embedded systems.
