@@ -20,14 +20,16 @@ g++ main.cpp Huffman.cpp Node.cpp -o run
 
  > ## Final deliverable
 ## Screenshots
-In this screenshots we are going to run it with the computer.txt file that contains 5 paragraph worth of texts.
+In this screenshots we are going to run the program with the computer.txt file that contains 5 paragraph worth of texts.
 
 The first output are the different characters composing what is in the text file and its frequency next to it.
+
 <img width="83" alt="chahracter list" src="https://user-images.githubusercontent.com/114533891/212437662-06c114dc-9cff-43da-b1eb-a02a1bc35755.png">
 
 
 Once we know the frequency we can not get the total bits by multiply it by 8 and as we can see computer.txt is composed of 
 15,496 bits in total.
+
 <img width="229" alt="without compression" src="https://user-images.githubusercontent.com/114533891/212416272-7e006b3d-2a90-4c88-bb63-7a5ceb60f81c.png">
 
 Now we once it is compressed, we can see that the total number of bits being used drastically decreased by almost half. 
@@ -41,7 +43,6 @@ As we can see the picture bellow, each character is being assigned with its uniq
 
 Now it is outputing the Huffman Codes:
 
-This is this 
 <img width="772" alt="huffman codes" src="https://user-images.githubusercontent.com/114533891/212436851-d79ac786-3aad-4be3-b2de-fddfe12ad355.png">
 
 Now that we have the Huffman Codes, it is easy to turn it back to its original text: 
