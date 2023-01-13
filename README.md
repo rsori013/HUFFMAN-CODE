@@ -20,27 +20,31 @@ g++ main.cpp Huffman.cpp Node.cpp -o run
 
  > ## Final deliverable
 ## Screenshots
-This is this 
-<img width="99" alt="assingning" src="https://user-images.githubusercontent.com/114533891/212436813-2269b526-1b28-44c4-b188-967b0dd936f5.png">
+In this screenshots we are going to run it with the computer.txt file that contains 5 paragraph worth of texts.
 
-This is this 
+The first output are the different characters composing what is in the text file and its frequency next to it.
+<img width="83" alt="chahracter list" src="https://user-images.githubusercontent.com/114533891/212437662-06c114dc-9cff-43da-b1eb-a02a1bc35755.png">
 
+
+Once we know the frequency we can not get the total bits by multiply it by 8 and as we can see computer.txt is composed of 
+15,496 bits in total.
 <img width="229" alt="without compression" src="https://user-images.githubusercontent.com/114533891/212416272-7e006b3d-2a90-4c88-bb63-7a5ceb60f81c.png">
 
-This is this 
+Now we once it is compressed, we can see that the total number of bits being used drastically decreased by almost half. 
+From 15,496 bits to 8,678 after using the huffman coding.
 
 <img width="314" alt="with compression" src="https://user-images.githubusercontent.com/114533891/212416277-ba43a2e6-9523-49e9-b1e8-2631c3c20300.png">
 
-This is this 
+As we can see the picture bellow, each character is being assigned with its unique bits. The longer the bits of a character means it is being use less compared to some character with the least bits.
 
 <img width="99" alt="assingning" src="https://user-images.githubusercontent.com/114533891/212416285-98079c3a-7067-4c34-97da-249968c3d89d.png">
 
-This is this 
+Now it is outputing the Huffman Codes:
 
 This is this 
 <img width="772" alt="huffman codes" src="https://user-images.githubusercontent.com/114533891/212436851-d79ac786-3aad-4be3-b2de-fddfe12ad355.png">
 
-This is this 
+Now that we have the Huffman Codes, it is easy to turn it back to its original text: 
 
 <img width="490" alt="huffman to og text" src="https://user-images.githubusercontent.com/114533891/212437053-a8c74a1a-55fb-4772-97f0-b42621d9e4b1.png">
 
