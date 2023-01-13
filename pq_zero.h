@@ -1,21 +1,3 @@
-/**
-* Course: CS010C Summer 2022
-*
-* First Name: Rovin
-* Last Name: Soriano
-* Username:	rsori013
-* email address: rsori013@ucr.edu
-*
-*
-* Assignment:  lab5 &PA5
-* Filename : pq_zero.h
-* Worked w/ Kobe Ying
-* I hereby certify that the contents of this file represent
-* my own original individual work. Nowhere herein is there
-* code from any outside resources such as another individual,
-* a website, or publishings unless specifically designated as
-* permissible by the instructor or TA.
-*/
 #ifndef PQ_ZERO_H
 #define PQ_ZERO_H
 
